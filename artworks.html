@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="/static/icon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Moonified Art Works">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+img {
+padding:10px;
+}
+
+
+body {
+  margin: 0;
+  font-family: monospace;
+  background-color:black;
+  color:white;
+}
+
+
+/*display content*/
+  .mobileShow {display: none;}
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+      .mobileShow {display: inline;}
+  }
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+  .mobileHide { display: inline; }
+
+  /* Smartphone Portrait and Landscape */
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+     .mobileHide { display: none;}
+  }
+
+
+/* Create four equal columns that floats next to each other */
+.columnt {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowt:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.bottom-left {
+  position: absolute;
+  bottom: 18px;
+  left: 24px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 18px;
+  right: 24px;
+}
+
+.containert {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+<div class="mobileShow">
+	<div class="header" id="myHeader">
+	  <h1>Moonified</h1>
+	  <p>✨Art Works✨</p>
+	</div>
+
+	<div class="row">
+	  <div class="column">
+
+        <div class="containert">
+    	  <img src="static/moonified/art1.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left">almost 11 hrs </div>
+    	  <div class="bottom-right">11-22-2021</div>
+    	</div>
+
+    	<div class="containert">
+    	  <img src="static/moonified/art2.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left">5 hrs</div>
+    	  <div class="bottom-right">11-23-2021</div>
+    	</div>
+
+    	<div class="containert">
+    	  <img src="static/moonified/art3.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left" style='color:black;'>3 hrs</div>
+    	  <div class="bottom-right" style='color:black;'>1-25-2022</div>
+    	</div>
+
+    	<div class="containert">
+    	  <img src="static/moonified/art4.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left" style='color:black;'>3 hrs</div>
+    	  <div class="bottom-right" style='color:black;'>1-25-2022</div>
+    	</div>
+
+    	<div class="containert">
+    	  <img src="static/moonified/art5.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left" style='color:black;'>3 hrs</div>
+    	  <div class="bottom-right" >1-28-2022</div>
+    	</div>
+
+    	<div class="containert">
+    	  <img src="static/moonified/art6.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left" style='color:black;'>1 hr</div>
+    	  <div class="bottom-right" style='color:black; '>1-25-2022</div>
+    	</div>
+
+    	<div class="containert">
+    	  <img src="static/moonified/art7.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left" style='color:black;'>5 hrs</div>
+    	  <div class="bottom-right" style='color:black; '>2-16-2022</div>
+    	</div>
+
+	  </div>
+	</div>
+
+</div>
+
+
+
+
+<div class="mobileHide">
+	<div class="header" id="myHeader">
+	  <h1>Moonified</h1>
+	  <p>✨Art Works✨</p>
+	</div>
+
+	<div class="rowt">
+
+
+
+	  <div class="columnt" style="">
+	    <div class="containert">
+    	  <img src="static/moonified/art1.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left">almost 11 hrs </div>
+    	  <div class="bottom-right">11-2021</div>
+    	</div>
+
+    	<div class="containert">
+    	  <img src="static/moonified/art5.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left" style='color:black;'>3 hrs</div>
+    	  <div class="bottom-right" >2022</div>
+    	</div>
+	  </div>
+
+
+	  <div class="columnt" >
+    	<div class="containert">
+    	  <img src="static/moonified/art2.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left">5 hrs</div>
+    	  <div class="bottom-right">2021</div>
+    	</div>
+
+    	<div class="containert">
+    	  <img src="static/moonified/art6.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left" style='color:black;'>1 hr</div>
+    	  <div class="bottom-right" style='color:black; '>2022</div>
+    	</div>
+	 </div>
+
+
+	  <div class="columnt" >
+        <div class="containert">
+    	  <img src="static/moonified/art3.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left" style='color:black;'>3 hrs</div>
+    	  <div class="bottom-right" style='color:black;'>2021</div>
+    	</div>
+
+    	<div class="containert">
+    	  <img src="static/moonified/art7.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left" style='color:black;'>X</div>
+    	  <div class="bottom-right" style='color:black; '>2022</div>
+    	</div>
+	  </div>
+
+
+	  <div class="columnt" >
+	    <div class="containert">
+    	  <img src="static/moonified/art4.jpg" style="width:100%; border-radius: 25px;">
+    	  <div class="bottom-left" style='color:black;'>3 hrs</div>
+    	  <div class="bottom-right" style='color:black;'>2021</div>
+    	</div>
+	  </div>
+
+
+
+
+
+	 </div>
+
+
+</div>
+
+<br><br><br>
+<center><p style="">M3XX Artworks @2022 </p></center>
+
+</body>
+</html>
